@@ -9,7 +9,7 @@ import ProductList from "./pages/ProductList";
 import Reports from "./pages/Reports";
 import Suppliers from "./pages/Suppliers";
 import Employees from "./pages/Employees";
-
+import Orders from "./pages/Orders";
 export default function App() {
   return (
     <BrowserRouter>
@@ -24,6 +24,7 @@ export default function App() {
           <Route path="/reports" element={<Reports />} />
           <Route path="/suppliers" element={<Suppliers />} />
           <Route path="employees" element={<Employees />} />
+          <Route path="/orders" element={<Orders />} />
           {/* Добавляй другие страницы здесь */}
         </Route>
       </Routes>
